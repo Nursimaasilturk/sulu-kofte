@@ -17,7 +17,7 @@ git add .
 git commit -m "Commit name"
 git push origin master
 
-# -Git- git nickname uzerinden pull yapma
+# Git- git nickname uzerinden pull yapma
 git pull nickname master
 
 # Git- pull remote server
