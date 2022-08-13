@@ -1,6 +1,30 @@
 /* Burada kendi bootstrapimi yapacağım isteyen ekleme yapsın ve @Baver,@Erkan,@Hatun annotasyonları ile yazdığınız kodları belirtin. */
+/* @Omer */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --primary-color:#ededed;
+    --text-color:#23232e;
 
+    --text-hover-color:black;
+    --primary-hover-color:#d0caca;
+}
 
 .btn {
-    padding:5px 20px;
+    padding:10px 30px;
+    border:none;
+    border-radius: 3px;
+    cursor:pointer;
+    font-weight: 600;
+    font-family:'Roboto',serif;
+    letter-spacing: 1px;
+}
+
+.btn-primary{
+    background-color:var(--primary-color);
+    color:var(--text-color);
+}
+
+.btn-primary:hover{
+    background-color:var(--primary-hover-color);
+    color:var(--text-hover-color);
 }
