@@ -19,12 +19,9 @@ git push origin master
 
 # Git- git nickname uzerinden pull yapma
 git pull nickname master
-
+----------------------------------------------------------------
 # Git- pull remote server
 git pull upstream master
-
-# Git- Remote repo pull ****DANGER***
-git pull upstream/master
 
 # Git- Upstream infos add  ****DANGER***
 git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
