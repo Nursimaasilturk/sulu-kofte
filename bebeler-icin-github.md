@@ -21,3 +21,14 @@ git pull nickname master
 
 # Git- pull remote server
 git pull upstream master
+
+# Git- Remote repo pull ****DANGER***
+git pull upstream/master
+
+# Git- Upstream infos add  ****DANGER***
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git fetch upstream
+git merge upstream/master
+git pull upstream/master
+git merge upstream/master
+git fetch upstream
