@@ -12,6 +12,7 @@ git remote add repo_nickname git://github.com/myfriend/the_repo
 # 5-Git- git chect this remote add setup
 git remote -v
 # 6-Git- git commit infos
+git fetch 
 git add . 
 git commit -m "Commit name"
 git push origin master
