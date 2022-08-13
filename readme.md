@@ -12,4 +12,7 @@
 # Baver 
     merhabaaa gençliikkkk
   
+  
+ # Furkan
+    -> Bir cisim yaklaşıyor efendim.
     
