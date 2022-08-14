@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #EEEEEE;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background-color: #EEEEEE;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .calculator {
+  width: 22vw;
+  height: 85vh;
+  background-color: #222831;
+  border-radius: 25px;
+}
+.container .calculator .calculator--header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .calculator .calculator--header .calculator__header--icons {
+  background-color: #393E46;
+  margin-top: 15px;
+  width: 15%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .calculator .calculator--header .calculator__header--icons i {
+  color: #EEEEEE;
+  display: block;
+}
+.container .calculator .calculator--header .calculator__header--icons i:first-child {
+  color: #999999;
+}
+
+.btn {
+  border: 0;
+  padding: 10px 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #00ADB5;
+  color: #EEEEEE;
+}
+.btn-primary:hover {
+  background-color: #00888e;
+  color: #EEEEEE;
+}
+
+.btn-secondary {
+  background-color: #393E46;
+  color: #EEEEEE;
+}
+.btn-secondary:hover {
+  background-color: #222831;
+  color: #EEEEEE;
+}
+
+/*# sourceMappingURL=main.css.map */
