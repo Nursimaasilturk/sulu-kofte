@@ -16,3 +16,5 @@
  # Furkan
     -> Bir cisim yaklaşıyor efendim.
     
+# Ömer 
+    -> Hoşgeldin Furkan, @Everyone ilk challenge başladı :)) detaylar challenge#1.txt içerisinde
