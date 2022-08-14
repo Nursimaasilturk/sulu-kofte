@@ -1,2 +1,5 @@
-1-> Kim en cool calculatoru yapabilir ? :D dosya formatı => developername-calculator.txt
+1-> Kim en cool calculatoru yapabilir ? :D dosya isim formatı => developername-calculator.uzantı
+    -> challenges klasörü altına oluşturunuz oluşturunuz.
+    -> istediğiniz teknolojiyi kullanabilirsiniz
+    SON-TESLIM-TARIHI: 20 August 2022
     KAZANAN: 
