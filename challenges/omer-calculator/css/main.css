@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 * {
   font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 
 body {
@@ -47,6 +48,66 @@ body {
 }
 .container .calculator .calculator--header .calculator__header--icons i:first-child {
   color: #999999;
+}
+.container .calculator .calculator--process {
+  height: 30vh;
+  background: #222831;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 10px;
+}
+.container .calculator .calculator--process .calculator__process--input input, .container .calculator .calculator--process .calculator__process--result input {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  color: #EEEEEE;
+}
+.container .calculator .calculator--process .calculator__process--input input:focus, .container .calculator .calculator--process .calculator__process--result input:focus {
+  outline: none;
+}
+.container .calculator .calculator--process .calculator__process--input input {
+  font-weight: 600;
+}
+.container .calculator .calculator--process .calculator__process--result input {
+  font-weight: 900;
+  font-size: 32px;
+}
+.container .calculator .calculator--numbers {
+  background-color: #393E46;
+  border-radius: 25px;
+  padding: 25px;
+  height: 50%;
+}
+.container .calculator .calculator--numbers .calculator--numbers--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .calculator .calculator--numbers .calculator--numbers--container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+}
+.container .calculator .calculator--numbers .calculator--numbers--container .row .calculator-btn {
+  width: 45px;
+  height: 45px;
+  background: #222831;
+  border: none;
+  color: #EEEEEE;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.container .calculator .calculator--numbers .calculator--numbers--container .row .calculator-btn:last-child {
+  color: #FF4B2B !important;
+}
+.container .calculator .calculator--numbers .calculator--numbers--container .row:first-child button {
+  color: #00ADB5 !important;
 }
 
 .btn {
