@@ -3,3 +3,9 @@
     -> istediğiniz teknolojiyi kullanabilirsiniz
     SON-TESLIM-TARIHI: 20 August 2022
     KAZANAN: 
+2->  SLIDER
+   ->Tek ya da çok image olabilir
+   ->JS gereken yerde isteğe bağlı olarak kullanabilirsiniz.
+   -> CSS ile yapmak isteyenler animasyon kullanabilir.
+   SON-TESLİM-TARİHİ: 31 Ağustos 2022
+   KAZANAN:
